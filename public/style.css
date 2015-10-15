@@ -1,0 +1,58 @@
+/* general */
+
+body { background: #ccc; }
+#balldiv { background: url('ballform.png'); height: 700px; width: 700px; margin: auto; position: relative; }
+.container-fluid { width: 1000px; background: #fff; }
+
+/* arrow buttons */
+
+#a1_l { position: absolute; top: 85px; left: 214px; }
+#a1_r { position: absolute; top: 85px; left: 269px; }
+#a2_l { position: absolute; top: 85px; left: 414px; }
+#a2_r { position: absolute; top: 85px; left: 468px; }
+#a3_u { position: absolute; top: 141px; left: 157px; }
+#a3_d { position: absolute; top: 196px; left: 157px; }
+#a4_u { position: absolute; top: 141px; left: 530px; }
+#a4_d { position: absolute; top: 196px; left: 530px; }
+#a5_u { position: absolute; top: 484px; left: 249px; }
+#a5_d { position: absolute; top: 539px; left: 249px; }
+#a6_l { position: absolute; top: 597px; left: 318px; }
+#a6_r { position: absolute; top: 597px; left: 373px; }
+
+/* checkboxes */
+
+label[for=ctc1] { position: absolute; top: 325px; right: 465px; }
+label[for=fs1] { position: absolute; top: 345px; right: 465px; }
+label[for=ctc2] { position: absolute; top: 325px; left: 455px; }
+label[for=fs2] { position: absolute; top: 345px; left: 455px; }
+
+#ctc1 { position: absolute; top: 325px; left: 240px; }
+#fs1 { position: absolute; top: 345px; left: 240px; }
+#ctc2 { position: absolute; top: 325px; left: 440px; }
+#fs2 { position: absolute; top: 345px; left: 440px; }
+
+/* fractions */ 
+
+label[for=f6] { position: absolute; top: 275px; left: 165px; }
+label[for=f7] { position: absolute; top: 275px; left: 475px; }
+
+#f1 { position: absolute; width: 50px; top: 165px; left: 90px; }
+#f2 { position: absolute; width: 50px; top: 140px; left: 225px; }
+#f3 { position: absolute; width: 50px; top: 140px; left: 324px; }
+#f4 { position: absolute; width: 50px; top: 140px; left: 425px; }
+#f5 { position: absolute; width: 50px; top: 165px; left: 560px; }
+#f6 { position: absolute; width: 50px; top: 250px; left: 170px; }
+#f7 { position: absolute; width: 50px; top: 250px; left: 480px; }
+#f8 { position: absolute; width: 50px; top: 332px; left: 289px; }
+#f9 { position: absolute; width: 50px; top: 332px; left: 359px; }
+
+/* decimals */
+
+#d1 { position: absolute; width: 50px; top: 400px; left: 170px; }
+#d2 { position: absolute; width: 50px; top: 400px; left: 480px; }
+
+/* free text */
+
+#ft1 { position: absolute; width: 75px; top: 195px; left: 212px; }
+#ft2 { position: absolute; width: 75px; top: 195px; left: 410px; }
+#ft3 { position: absolute; width: 75px; top: 535px; left: 312px; }

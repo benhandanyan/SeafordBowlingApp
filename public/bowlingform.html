@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+	<script>src = script.js</script>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Seaford Bowling Lanes</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<div class="container-fluid">
+		
+		<!-- header -->
+
+		<!-- navigation and search bar -->
+		<nav class="navbar navbar-default">
+			This is the navigation bar.
+		</nav>
+
+		<img src="logo.png"/>
+		
+
+		<!-- fields -->
+		<div class="row">
+			<div class="col-md-8">
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="name" ng-model = "name"></input>
+			</div>
+			<div class="col-md-4">
+				<label for="date">Date:</label>
+				<input type="date" name="date" id="date" ng-model = "date"></input>
+			</div>
+		</div>
+
+		<div class="row">
+			<label for="address">Address:</label>
+			<input type="text" name="address" id="address" ng-model = "address"></input>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<label for="city">City:</label>
+				<input type="text" name="city" id="city" ng-model = "city"></input>
+			</div>
+			<div class="col-md-3">
+				<label for="state">State:</label>
+				<input type="text" name="state" id="state" ng-model = "state"></input>
+			</div>
+			<div class="col-md-3">
+				<label for="zip">Zip:</label>
+				<input type="text" name="zip" id="zip" ng-model = "zip"></input>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<label for="phone">Phone:</label>
+				<input type="text" name="phone" id="phone" ng-model = "phone"></input>
+			</div>
+			<div class="col-md-6">
+				<label for="cell">Cell:</label>
+				<input type="text" name="cell" id="cell" ng-model = "cell"></input>
+			</div>
+		</div>
+
+		<div class="row">
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" ng-model = "email"></input>
+		</div>
+
+		<div class="row">
+			<form>
+				<div class="col-md-3">
+					<label for="lh">LH:</label>
+					<input type="radio" id="lh" ng-model = 'hand' value = 'left'></input>
+				</div>
+				<div class="col-md-3">
+					<label for="rh">RH:</label>
+					<input type="radio" id="rh" ng-model = 'hand' value = 'right'></input>
+				</div>
+			</form>
+			<div class="col-md-3">
+				<label for="conv">Conv:</label>
+				<input type="text" name="conv" id="conv" ng-model = "conv"></input>
+			</div>
+			<div class="col-md-3">
+				<label for="ft">FT:</label>
+				<input type="text" name="ft" id="ft" ng-model = "ft"></input>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<label for="ball">Ball:</label>
+				<input type="text" name="ball" id="ball" ng-model = "ball"></input>
+			</div>
+			<div class="col-md-3">
+				<label for="wgt">Wgt:</label>
+				<input type="text" name="wgt" id="wgt" ng-model = "wgt"></input>
+			</div>
+			<div class="col-md-3">
+				<label for="pin">Pin:</label>
+				<input type="text" name="pin" id="pin" ng-model = "pin"></input>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<label for="layout">Layout:</label>
+				<input type="text" name="layout" id="layout" ng-model = "layout"></input>
+			</div>
+			<div class="col-md-6">
+				<label for="surface">Surface:</label>
+				<input type="text" name="surface" id="surface" ng-model = "surface"></input>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<label for="bhposition">BH Position:</label>
+				<input type="text" name="bhposition" id="bhposition" ng-model = "bhposition"></input>
+			</div>
+			<div class="col-md-3">
+				<label for="size">Size:</label>
+				<input type="text" name="size" id="size" ng-model = "size"></input>
+			</div>
+			<div class="col-md-3">
+				<label for="depth">Depth:</label>
+				<input type="text" name="depth" id="depth" ng-model = "depth"></input>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<label>PAP:</label>
+				<input type="text" name="paph" id="paph" placeholder="Horizontal" ng-model = "paph"></input>
+				<input type="text" name="papud" id="papud" placeholder="Vertical" ng-model = "papud"></input>
+			</div>
+			<div class="col-md-6">
+				<input type="text" name="papclt" id="papclt" placeholder="CTL/Offset Thumb" ng-model = "papclt"></input>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<label for="thumb">Thumb:</label>
+				<input type="text" name="thumb" id="thumb" placeholder="Style" ng-model = "thumb"></input>
+			</div>
+			<div class="col-md-6">
+				<label for="fingers">Fingers:</label>
+				<input type="text" name="fingers" id="fingers" placeholder="Style" ng-model = "fingers"></input>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<label for="price">Price:</label>
+				<input type="text" name="price" id="price" ng-model = "price"></input>
+			</div>
+			<div class="col-md-6">
+				<label for="completed">Completed By:</label>
+				<input type="text" name="completed" id="completed" ng-model = "completed"></input>
+			</div>
+		</div>
+
+		<!-- table -->
+		<div class="row">
+				<table class="table">
+					<tr>
+						<th>Ball</th>
+						<th>Weight</th>
+						<th>Pin</th>
+						<th>Layout</th>
+						<th>BH Position</th>
+						<th>BH Size</th>
+						<th>BH Depth</th>
+						<th>Surface</th>
+					</tr>
+					<tr>
+						<td><input type="text"></input></td>
+						<td><input type="text"></input></td>
+						<td><input type="text"></input></td>
+						<td><input type="text"></input></td>
+						<td><input type="text"></input></td>
+						<td><input type="text"></input></td>
+						<td><input type="text"></input></td>
+						<td><input type="text"></input></td>
+					</tr>
+					<tr>
+						<td><input type="text"></input></td>
+						<td><input type="text"></input></td>
+						<td><input type="text"></input></td>
+						<td><input type="text"></input></td>
+						<td><input type="text"></input></td>
+						<td><input type="text"></input></td>
+						<td><input type="text"></input></td>
+						<td><input type="text"></input></td>
+					</tr>
+				</table>
+		</div>
+
+		<!-- additional notes -->
+		<div class="row">
+			<p>Notes:</p>
+			<textarea name="notes" ng-model = "notes"></textarea>
+		</div>
+
+		<!-- ball -->
+		<div id="balldiv">
+			<!-- arrows -->
+			<input type="radio" name="a1" id="a1_l" ng-model = "a1" value = "a1l"></input>
+			<input type="radio" name="a1" id="a1_r" ng-model = "a1" value = "a1r"></input>
+			<input type="radio" name="a2" id="a2_l" ng-model = "a2" value = "a2l"></input>
+			<input type="radio" name="a2" id="a2_r" ng-model = "a2" value = "a2r"></input>
+			<input type="radio" name="a3" id="a3_u" ng-model = "a3" value = "a3u"></input>
+			<input type="radio" name="a3" id="a3_d" ng-model = "a3" value = "a3d"></input>
+			<input type="radio" name="a4" id="a4_u" ng-model = "a4" value = "a4u"></input>
+			<input type="radio" name="a4" id="a4_d" ng-model = "a4" value = "a4d"></input>
+			<input type="radio" name="a5" id="a5_u" ng-model = "a5" value = "a5u"></input>
+			<input type="radio" name="a5" id="a5_d" ng-model = "a5" value = "a5d"></input>
+			<input type="radio" name="a6" id="a6_l" ng-model = "a6" value = "a6l"></input>
+			<input type="radio" name="a6" id="a6_r" ng-model = "a6" value = "a6r"></input>
+
+			<!-- checkboxes -->
+			<label for="ctc1">Cut to Cut</label><input type="checkbox" id="ctc1" ng-model = "ctc1"></input>
+			<label for="fs1">Full Span</label><input type="checkbox" id="fs1" ng-model = "fs1"></input>
+			<input type="checkbox" id="ctc2" ng-model = "ctc2"></input><label for="ctc2">Cut to Cut</label>
+			<input type="checkbox" id="fs2" ng-model = "fs2"></input><label for="fs2">Full Span</label>
+
+			<!-- fractions -->
+			<input type="text" id="f1" ng-model = "f1"></input>
+			<input type="text" id="f2" ng-model = "f2"></input>
+			<input type="text" id="f3" ng-model = "f3"></input>
+			<input type="text" id="f4" ng-model = "f4"></input>
+			<input type="text" id="f5" ng-model = "f5"></input>
+			<input type="text" id="f6" ng-model = "f6"></input><label for="f6">Oval Cut</label>
+			<input type="text" id="f7" ng-model = "f7"></input><label for="f7">Oval Cut</label>
+			<input type="text" id="f8" ng-model = "f8"></input>
+			<input type="text" id="f9" ng-model = "f9"></input>
+
+			<!-- decimals -->
+			<input type="text" id="d1" ng-model = "d1"></input>
+			<input type="text" id="d2" ng-model = "d2"></input>
+
+			<!-- free text -->
+			<input type="text" id="ft1" ng-model = "ft1"></input>
+			<input type="text" id="ft2" ng-model = "ft2"></input>
+			<input type="text" id="ft3" ng-model = "ft3"></input>
+		</div>
+	</div>
+
+	<script> document.getElementById('date').valueAsDate = new Date(); </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<center><input type = "submit" id = "submit" value = "Submit" ng-click = "submit()"/></center>
+	<br>
+</body>
+</html>
