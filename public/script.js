@@ -220,6 +220,7 @@ bapp.controller(
 								FT3: $scope.ft3
 							});
 							alert("Form successfully completed!");
+							$state.go('search');
 												
 						}
 						else{
